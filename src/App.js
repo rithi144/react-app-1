@@ -1,10 +1,14 @@
 import logo from './logo.svg';
 import './App.css';
+import TestComponent from "./Components/classComp/testClassComponent.jsx";
+import Login from "./Components/classComp/LoginClassComponent.jsx"
 
 function App() {
   return (
     <div className="App">
+      <Login/>
       <header className="App-header">
+      <TestComponent/>
         <img src={logo} className="App-logo" alt="logo" />
         <p>
           Edit <code>src/App.js</code> and save to reload.
