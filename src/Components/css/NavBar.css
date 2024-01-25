@@ -1,0 +1,9 @@
+ol{
+    display:flex;
+    justify-content:space-evenly;
+    list-style-type: none;
+    background-color:burlywood;
+    padding: 15px;
+    margin:0px;
+    font-size: larger;
+}
