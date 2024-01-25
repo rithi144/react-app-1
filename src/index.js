@@ -3,14 +3,13 @@ import ReactDOM from 'react-dom/client';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
-import Login from "./Components/classComp/LoginClassComponent.jsx";
+//import Login from "./Components/classComp/LoginClassComponent.jsx";
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
-  <div>
-    <Login/>
-    <App/>
-  </div>
+
+    <App />
+  
 );
 
 // If you want to start measuring performance in your app, pass a function
